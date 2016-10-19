@@ -1,0 +1,45 @@
+{
+  "_id": "5805e3ffef2597651f5f1807",
+  "index": 0,
+  "guid": "a7a024c9-4ef2-4395-9274-d0313c5dcde4",
+  "isActive": true,
+  "balance": null,
+  "picture": "http://placehold.it/32x32",
+  "age": 34,
+  "eyeColor": "green",
+  "name": "Maxine Campbell",
+  "gender": "female",
+  "company": "ASSISTIX",
+  "email": "maxinecampbell@assistix.com",
+  "phone": "",
+  "address": "116 Cheever Place, Kula, Arizona, 578",
+  "about": "Excepteur excepteur culpa non dolor in id. Sint velit sit tempor dolor occaecat laboris ut. Quis eiusmod mollit ea mollit magna id non. Voluptate cillum fugiat culpa nulla ut qui. Qui aute Lorem consectetur adipisicing.\r\n",
+  "registered": "2014-11-24T04:33:26 -06:-30",
+  "latitude": 63.159189,
+  "longitude": -81.304678,
+  "tags": [
+    "eiusmod",
+    "velit",
+    "quis",
+    "sunt",
+    "magna",
+    "excepteur",
+    "et"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Freida Guthrie"
+    },
+    {
+      "id": 1,
+      "name": "Morales Daugherty"
+    },
+    {
+      "id": 2,
+      "name": "Acevedo Hart"
+    }
+  ],
+  "greeting": "Hello, Maxine Campbell! You have 8 unread messages.",
+  "favoriteFruit": "strawberry"
+}

@@ -1,0 +1,25 @@
+group 'reactive'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.github.masterlittle'
+
+sourceCompatibility = 1.6
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile 'com.google.code.gson:gson:2.4'
+    /**
+     * Reactive RxJava dependencies
+     */
+    compile 'io.reactivex:rxjava:1.2.1'
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'org.jetbrains:annotations-java5:15.0'
+}

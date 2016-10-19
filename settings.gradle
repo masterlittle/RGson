@@ -1,0 +1,3 @@
+rootProject.name = 'rxgson'
+include ':rgson'
+

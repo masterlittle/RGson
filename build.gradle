@@ -1,0 +1,19 @@
+group 'reactive'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.6
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile 'junit:junit:4.12'
+
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile project(path: ':rgson')
+    compile 'javax.annotation:javax.annotation-api:1.2'
+}
