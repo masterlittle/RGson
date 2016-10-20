@@ -1,5 +1,5 @@
 # RGson [![](https://www.jitpack.io/v/masterlittle/RGson.svg)](https://www.jitpack.io/#masterlittle/RGson)
-A reactive wrapper over Gson library
+A reactive wrapper over Gson library. Can be used in Java projects as well as Android projects.
 
 ## Usage
 
