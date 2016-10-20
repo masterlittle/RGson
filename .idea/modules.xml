@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rgson/rgson.iml" filepath="$PROJECT_DIR$/.idea/modules/rgson/rgson.iml" group="rgson" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rgson/rgson_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rgson/rgson_main.iml" group="rgson" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rgson/rgson_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rgson/rgson_test.iml" group="rgson" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rgson.iml" filepath="$PROJECT_DIR$/.idea/modules/rgson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rgson_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rgson_main.iml" group="rgson" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rgson_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rgson_test.iml" group="rgson" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxgson.iml" filepath="$PROJECT_DIR$/.idea/modules/rxgson.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxgson_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rxgson_main.iml" group="rxgson" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxgson_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rxgson_test.iml" group="rxgson" />

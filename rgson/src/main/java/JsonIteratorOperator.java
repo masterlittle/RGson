@@ -11,14 +11,14 @@ import rx.functions.Func1;
  * Created by Shitij on 30/07/16.
  */
 @Experimental
-public class JsonIteratorOperator implements Observable.Operator<JsonReader, JsonReader>{
-    final Func1<JsonReader, JsonReader> func1;
+public class JsonIteratorOperator<R> implements Observable.Operator<R, JsonReader>{
+    final Func1<JsonReader, R> func1;
 
-    JsonIteratorOperator(Func1<JsonReader, JsonReader> func1) {
+    JsonIteratorOperator(Func1<JsonReader, R> func1) {
         this.func1 = func1;
     }
 
-    public Subscriber<? super JsonReader> call(final Subscriber<? super JsonReader> subscriber) {
+    public Subscriber<? super JsonReader> call(final Subscriber<? super R> subscriber) {
 
         return new Subscriber<JsonReader>(subscriber) {
             @Override
@@ -36,8 +36,8 @@ public class JsonIteratorOperator implements Observable.Operator<JsonReader, Jso
                 try {
                     jsonReader.beginObject();
                     while (jsonReader.hasNext()) {
-                        func1.call(jsonReader);
-                        subscriber.onNext(jsonReader);
+                        R r = func1.call(jsonReader);
+                        subscriber.onNext(r);
                     }
                     jsonReader.endObject();
                     onCompleted();

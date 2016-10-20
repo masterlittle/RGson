@@ -452,25 +452,29 @@ public class RGsonTest {
 
     @Test
     public void readJsonObservable2_Filepath() throws Exception {
-        TestSubscriber<JsonReader> testSubscriber = new TestSubscriber<JsonReader>();
+        TestSubscriber<String> testSubscriber = new TestSubscriber<String>();
 
-        Observable<JsonReader> jsonReaderObservable = rGson.readJsonObservable(filePath)
-                .iterate(new Func1<JsonReader, JsonReader>() {
+        Observable<String> jsonReaderObservable = rGson.readJsonObservable(filePath)
+                .iterate(new Func1<JsonReader, String>() {
                     @Override
-                    public JsonReader call(JsonReader jsonReader) {
+                    public String call(JsonReader jsonReader) {
                         try {
+                            String name = jsonReader.nextName();
                             jsonReader.skipValue();
+                            return name;
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
-                        return jsonReader;
+                        return "";
                     }
                 });
         jsonReaderObservable.subscribe(testSubscriber);
 
         testSubscriber.assertNoErrors();
-        int count = testSubscriber.getValueCount();
-        Assert.assertEquals(count, 44);
+        List<String> stringList = testSubscriber.getOnNextEvents();
+        Assert.assertEquals("_id", stringList.get(0));
+        Assert.assertEquals("index", stringList.get(1));
+        Assert.assertEquals("guid", stringList.get(2));
     }
 
     @After

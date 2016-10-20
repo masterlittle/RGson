@@ -31,11 +31,11 @@ public class JsonObservable extends Observable<JsonReader> {
      * @return the observable
      */
     @Experimental
-    public final Observable<JsonReader> iterate(Func1<JsonReader, JsonReader> mapper) {
+    public final <R> Observable<R> iterate(Func1<JsonReader, R> mapper) {
         return lift(iterateOverJson(mapper));
     }
 
-    private static Observable.Operator<JsonReader, JsonReader> iterateOverJson(Func1<JsonReader, JsonReader> mapper) {
-        return new JsonIteratorOperator(mapper);
+    private static <R> Observable.Operator<R, JsonReader> iterateOverJson(Func1<JsonReader, R> mapper) {
+        return new JsonIteratorOperator<R>(mapper);
     }
 }
