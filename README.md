@@ -28,6 +28,7 @@ Observable<String> ob = rgson.readJsonObservable(JsonReader)
 ```
 
 For more code samples refer to the test cases and src folder which contains some basic examples.
+**The code of the library is in the rgson folder. The outer src folder is the samples.**
 
 ## Download
 Add it in your root build.gradle
