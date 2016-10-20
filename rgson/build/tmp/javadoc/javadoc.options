@@ -1,0 +1,9 @@
+-classpath '/Users/Shitij/IdeaProjects/rxgson/rgson/build/classes/main:/Users/Shitij/IdeaProjects/rxgson/rgson/build/resources/main:/Users/Shitij/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar:/Users/Shitij/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.1/4e4cfa4adc74521d5966799fa5ab70b733552f68/rxjava-1.2.1.jar:/Users/Shitij/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/1.2.1/78179b876174994f66432947fa15338ba13747a4/rxandroid-1.2.1.aar:/Users/Shitij/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations-java5/15.0/7011b4551a8451906759b05814c58b9eb829ea9b/annotations-java5-15.0.jar'
+-d '/Users/Shitij/IdeaProjects/rxgson/rgson/build/docs/javadoc'
+-doctitle 'rgson 1.0.1 API'
+-quiet 
+-windowtitle 'rgson 1.0.1 API'
+'/Users/Shitij/IdeaProjects/rxgson/rgson/src/main/java/GsonFunctions.java'
+'/Users/Shitij/IdeaProjects/rxgson/rgson/src/main/java/JsonIteratorOperator.java'
+'/Users/Shitij/IdeaProjects/rxgson/rgson/src/main/java/JsonObservable.java'
+'/Users/Shitij/IdeaProjects/rxgson/rgson/src/main/java/RGson.java'

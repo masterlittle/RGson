@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RGsonTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2016-10-20T12:38:43" hostname="Shitijs-Mainframe.local" time="0.214">
+  <properties/>
+  <testcase name="write10_JsonWriter" classname="RGsonTest" time="0.077"/>
+  <testcase name="write9_Object_Type_JsonWriter" classname="RGsonTest" time="0.017"/>
+  <testcase name="readJsonObservable2_Filepath" classname="RGsonTest" time="0.006"/>
+  <testcase name="write2_JsonElement" classname="RGsonTest" time="0.012"/>
+  <testcase name="read7_JsonElement_Null_Class" classname="RGsonTest" time="0.003"/>
+  <testcase name="read_String_Class" classname="RGsonTest" time="0.003"/>
+  <testcase name="read6_JsonElement_Present_Class" classname="RGsonTest" time="0.013"/>
+  <testcase name="write7_JsonElement_Type_JsonWriter" classname="RGsonTest" time="0.002"/>
+  <testcase name="write3_JsonElement_AppendableWriter" classname="RGsonTest" time="0.003"/>
+  <testcase name="read3_Reader_Type" classname="RGsonTest" time="0.003"/>
+  <testcase name="write8_Object_Type_Writer" classname="RGsonTest" time="0.005"/>
+  <testcase name="readJsonObservable" classname="RGsonTest" time="0.002"/>
+  <testcase name="write1_String_Type" classname="RGsonTest" time="0.002"/>
+  <testcase name="write5_JsonElement_JsonWriter" classname="RGsonTest" time="0.002"/>
+  <testcase name="write_String_Class" classname="RGsonTest" time="0.003"/>
+  <testcase name="read9_JsonElement_Null_Type" classname="RGsonTest" time="0.004"/>
+  <testcase name="read8_JsonElement_Present_Type" classname="RGsonTest" time="0.003"/>
+  <testcase name="readJsonObservable1_Encoding" classname="RGsonTest" time="0.007"/>
+  <testcase name="read1_JsonReader_Class" classname="RGsonTest" time="0.006"/>
+  <testcase name="write6_Object_Writer" classname="RGsonTest" time="0.002"/>
+  <testcase name="read2_Reader_Class" classname="RGsonTest" time="0.01"/>
+  <testcase name="read4_JsonReader_Type" classname="RGsonTest" time="0.009"/>
+  <testcase name="read5_String_Type" classname="RGsonTest" time="0.002"/>
+  <testcase name="write4_JsonElement_Type_Writer" classname="RGsonTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
