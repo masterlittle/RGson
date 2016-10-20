@@ -34,14 +34,14 @@ Add it in your root build.gradle
 ```
 allprojects {
     repositories {
-        maven { url "https://www.jitpack.io" }
+        jcenter()
         }
     }
 ```
 Add the dependency
 ```
 dependencies {
-    compile 'com.github.masterlittle:RGson:1.0.0'
+    compile 'com.shitij.goyal:rgson:1.0.1'
 }
 ```
 
